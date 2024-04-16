@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Challenge Website from Frontend Mentor</title>
+</head>
+<body>
+    <section class="contact container">
+        <div class="contact_info_left">
+            <div class="contact_info_step">
+                <h4>1</h4>
+                <div class="contact_info_text">
+                    <h2>Step One</h2>
+                    <h3>Your Info</h3>
+                </div>
+            </div>
+            <div class="contact_info_step">
+                <h4 >2</h4>
+                <div class="contact_info_text">
+                    <h2>Step Two</h2>
+                    <h3>Select Plan</h3>
+                </div>
+            </div>
+            <div class="contact_info_step">
+                <h4>3</h4>
+                <div class="contact_info_text">
+                    <h2>Step Three</h2>
+                    <h3>Add-ons</h3>
+                </div>
+            </div>
+            <div class="contact_info_step">
+                <h4 >4</h4>
+                <div class="contact_info_text">
+                    <h2>Step Four</h2>
+                    <h3>Summary</h3>
+                </div>
+            </div>
+        </div>
+        
+        <div class="contact_form">
+            <h2>Personal Info</h2>
+            <h4>Please Provide Your Name, Email Address and Phone Number</h4>
+            <form action="https://formspree.io/f/xyyrbqyk"
+            method="POST">
+                <div class="contact_input">
+                <label for="">Name</label> <br>
+                <input id="name" type="text" placeholder=" eg. The Akram" required>
+                </div>
+                <div class="contact_input">
+                <label for="">Your Email</label> <br>
+                <input id="mail" type="email" placeholder=" eg. example@gmail.com" required>
+                </div>
+               <div class="contact_input">
+                <label for="">Number</label> <br>
+                <input id="number" type="number" placeholder=" eg. +01277124" name="" required>
+               </div>
+                <div class="contact_btn">
+                    <button class="btn">Next Step</button>
+                </div>
+            </form>
+        </div>
+    </section>
+</body>
+</html>
